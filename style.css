@@ -24,7 +24,6 @@ ion-icon {
   align-items: flex-end;
   justify-content: center;
   height: 100px;
-
 }
 
 .container-sobre{
@@ -53,6 +52,7 @@ nav {
   margin-left: 20px;
 }
 
+
 .content-buttons {
   width: 20%;
   margin: 25px;
@@ -66,6 +66,15 @@ nav {
   margin: 10px;
   flex-grow: 1;
 }
+
+.vermelho {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
 
 
 /*Carousel*/
@@ -95,8 +104,9 @@ nav {
 .promo-title {
   margin:5%;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 75px;
   color: #f78032;
+  
 }
 
 .promo-cards-container {
@@ -211,8 +221,55 @@ nav {
   width: 80%;
 }
 
+/*contatos*/
+
+.content-contato {
+  margin: auto;
+  margin-bottom: 15px;
+  color: #f78032;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 75px;
+  
+}
+#contato {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contato p {
+  color: #f78032;
+  font-size: 16px;
+  margin-bottom: 20px;
+ display: flex;
+justify-content: center;
+  
+}
+
+#contato ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+#contato li {
+  color: #f78032;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#contato li strong {
+  font-weight: bold;
+}
+
 
 /*Footer*/
+
+
 footer {
   width: 100%;
   height: 150px;
